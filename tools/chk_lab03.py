@@ -32,4 +32,4 @@ class TestMain(unittest.TestCase):
                     self.assertEqual(fake_out.getvalue(), test_case['output'], f'Test case {i} failed')
 
 if __name__ == '__main__':
-    unittest.main(argv=[''], exit=False)
+    unittest.main()
